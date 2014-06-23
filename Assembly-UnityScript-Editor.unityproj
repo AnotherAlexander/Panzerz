@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{22B180F3-CE58-CAC5-E670-809CFC444B57}</ProjectGuid>
+	<ProjectGuid>{6B64A92E-9D0B-D3BC-6A65-4CBB43BF7967}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -60,10 +60,10 @@
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/Alex/Desktop/New Unity Project 2/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/Alex/Documents/GitHub/Panzerz/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Alex/Desktop/New Unity Project 2/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Alex/Documents/GitHub/Panzerz/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -71,13 +71,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{AFFFA578-0823-39EC-ED25-1F3DF91124AA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7639A8F5-169B-2E29-4414-C208F5A30522}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{7F2F15A1-78D4-AA08-2E16-ED49ABCA363F}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{E41C789E-B1E6-FF88-3818-90ABA57270C4}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{C90E7179-C988-D678-E424-F42F165359BD}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{D4B2BA65-D5E8-D549-62BC-F1DAD7554C84}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{0928AD0F-18AC-43E8-C090-2504C5899023}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{AD3D5EDA-0E00-53C9-D087-EB0F8BAEBDE0}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

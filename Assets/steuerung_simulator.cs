@@ -38,7 +38,12 @@ public class steuerung_simulator : Photon.MonoBehaviour {
 	[RPC]
 	void destroyThis() {
 		if (networkView.isMine) {
-			PhotonNetwork.Destroy (gameObject);
+			if (photonView.isMine) {
+				PhotonNetwork.Destroy(gameObject);
+				ingame.alive = false;
+				
+			}
+			Debug.Log("Destroyed");
 		}
 	}
 
@@ -46,12 +51,7 @@ public class steuerung_simulator : Photon.MonoBehaviour {
 	{
 		photonView.RPC("destroyThis", PhotonTargets.All);
 
-		if (photonView.isMine) {
-			PhotonNetwork.Destroy(gameObject);
-			ingame.alive = false;
 
-		}
-		Debug.Log("Destroyed");
 	}
 
 
