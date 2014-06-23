@@ -1,0 +1,22 @@
+Initialize engine version: 4.5.1f3 (73cd57f80e3e)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Alex\Desktop\New Unity Project 2\est_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+desktop: 1680x1050 60Hz; virtual: 3600x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
